@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  .printable-area {
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%;
+  }
+}

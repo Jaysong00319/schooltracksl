@@ -1,0 +1,21 @@
+# Dependency Directories
+node_modules/
+jspm_packages/
+.vite/
+.vite-temp/
+
+# Production Build Compiled Output
+dist/
+tmp/
+out/
+
+# Secret Environmental Variables & Database Keys (Never commit these!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System Logs
+.DS_Store
+Thumbs.db
